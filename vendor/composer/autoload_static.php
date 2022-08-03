@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit0fa097a71b7066c17a27a9efc236441a
 {
     public static $prefixLengthsPsr4 = array (
-        'l' => 
+        'd' => 
         array (
-            'language\\' => 9,
+            'douggonsouza\\language\\' => 22,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'language\\' => 
+        'douggonsouza\\language\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,8 +22,8 @@ class ComposerStaticInit0fa097a71b7066c17a27a9efc236441a
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'language\\language' => __DIR__ . '/../..' . '/src/language.php',
-        'language\\languageInterface' => __DIR__ . '/../..' . '/src/languageInterface.php',
+        'douggonsouza\\language\\language' => __DIR__ . '/../..' . '/src/language.php',
+        'douggonsouza\\language\\languageInterface' => __DIR__ . '/../..' . '/src/languageInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

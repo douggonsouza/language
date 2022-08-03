@@ -7,6 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'language\\language' => $baseDir . '/src/language.php',
-    'language\\languageInterface' => $baseDir . '/src/languageInterface.php',
+    'douggonsouza\\language\\language' => $baseDir . '/src/language.php',
+    'douggonsouza\\language\\languageInterface' => $baseDir . '/src/languageInterface.php',
 );
