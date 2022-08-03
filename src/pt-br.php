@@ -1,6 +1,6 @@
 <?php
 
-namespace language;
+namespace douggonsouza\language;
 
 return array(
     'label' => 'Etiqueta'

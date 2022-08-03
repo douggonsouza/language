@@ -1,8 +1,8 @@
 <?php
 
-namespace language;
+namespace douggonsouza\language;
 
-use language\languageInterface;
+use douggonsouza\language\languageInterface;
 
 final class language implements languageInterface
 {

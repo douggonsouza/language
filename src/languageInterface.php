@@ -1,6 +1,6 @@
 <?php
 
-namespace language;
+namespace douggonsouza\language;
 
 interface languageInterface
 {
