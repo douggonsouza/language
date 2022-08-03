@@ -52,8 +52,7 @@ final class language implements languageInterface
     public function get(string $label)
     {
         $valueLabel = array();
-        $languages = $this->getLanguages()[$this->getDefaultLanguage()];
-        foreach($languages as $language){
+        foreach($this->getLanguages()[$this->getDefaultLanguage()] as $language){
             $labels = include($language);
             if(isset($labels[$label]) && !empty($labels[$label])){
                 $valueLabel[] = $labels[$label];

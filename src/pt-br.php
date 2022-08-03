@@ -3,5 +3,6 @@
 namespace douggonsouza\language;
 
 return array(
-    'label' => 'Etiqueta'
+    'label' => 'Etiqueta',
+    'language' => 'pt-br',
 );
