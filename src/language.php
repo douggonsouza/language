@@ -19,8 +19,16 @@ final class language implements languageInterface
     public function __construct(array $languages)
     {
         if(isset($languages) && !empty($languages)){
-            foreach($languages as $language){
-                $this->new($language['local'], $language['language']);
+            foreach($languages as $index => $language){
+                if(is_string($language)){
+                    $this->new($language, $index);
+                    return;
+                }
+
+                foreach($language as $local){
+
+                }
+                $this->new($local, $index);
             }
         }
     }
