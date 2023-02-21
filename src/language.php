@@ -67,6 +67,10 @@ final class language implements languageInterface
             }
         }
 
+        if(!isset($valueLabel) || empty($valueLabel)){
+            return $label;
+        }
+
         return implode(' ', $valueLabel);
     }
 
